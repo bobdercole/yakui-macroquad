@@ -155,7 +155,7 @@ impl mq::EventHandler for Yakui {
     }
 
     fn mouse_wheel_event(&mut self, dx: f32, dy: f32) {
-        self.0.mouse_wheel_event(dx, dy);
+        self.0.mouse_wheel_event(dx, -dy * 15.0);
     }
 
     fn mouse_button_down_event(&mut self, mb: mq::MouseButton, x: f32, y: f32) {
