@@ -17,7 +17,7 @@ yakui-miniquad = { git = "https://github.com/bobdercole/yakui-miniquad.git", bra
 send_wrapper = "0.6.0"
 
 [dev-dependencies]
-yakui = "0.3.0"
+yakui = { git = "https://github.com/bobdercole/yakui.git", branch = "temp/clipping-viewport-offset" }
 
 [[example]]
 name = "hello-world"
